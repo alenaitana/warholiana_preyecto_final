@@ -1,0 +1,21 @@
+/* EMPIEZA FOTOS */
+
+.fuente{
+    font-family: 'Updock', cursive;
+}
+.tamaño_img{
+    width: 400px;
+}
+.fondo_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.separaciones_fotos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-size: 1rem;
+
+}

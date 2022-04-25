@@ -1,0 +1,188 @@
+/* EMPIEZA @MEDIA SCREEM  768PX*/
+@media screen and (min-width: 768px){
+
+    /*  INICIO */
+ .grid_inicio{
+    grid-template-rows: 1fr 2.5fr 0.3fr;
+} 
+.logo{
+    width: 300px;
+    height: auto;
+}
+  .separaciones{
+      display: flex;
+      flex-direction: column;
+      margin-top: 5vw;
+      font-size: 4rem;
+           h1{
+               font-size: $tamaño-titulos;
+               margin-top: 15vw;
+               text-shadow: 5px red;
+           } 
+                .p{
+                    font-size: $tamaño-text;
+                    padding-top: 5px;
+                    text-align: center;
+                 
+  }
+  }
+
+  .edicion_footer{
+      padding-top: 10px;
+  }
+
+  /* FOTOS */
+  
+    .fondo_img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .separaciones_fotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+    .fuente{
+        font-family:'Updock', cursive;
+    }
+
+    .tamaño_img{
+    width: 500px ;
+}
+
+/*    MI HISTORIA  */
+
+ 
+  .separaciones_mi_historia{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
+    font-size: 1rem;
+}
+    .logo{
+        width: 300px;
+    }
+
+    /* TIENDA */
+
+    .grid_tienda{
+        grid-template-rows: 1fr 0.35fr 3fr 0.6fr;
+    }    
+    
+    .tarjeta{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+  
+/* EMPIEZA @MEDIA SCREEM 1024 */
+
+@media screen and (min-width: 1024px){
+
+    /* INICIO*/
+
+    .grid_inicio{
+        grid-template-rows: 1fr 2.3fr 0.25fr;
+    } 
+    #nav_edicion{
+        background-color: rgb(203, 156, 248);
+        font-size: 1.2rem;
+    }
+    .fuente{
+        font-family: 'Updock', cursive;
+        font-size: 5rem;
+    }
+    .separaciones{
+        margin-top: 20vw;
+        font-size: 1.3rem;
+            h1{
+                font-size: $tamaño-titulos;
+
+                p{
+                    font-size: $tamaño-text;
+                }
+            }
+    }
+    
+      /*FOTOS*/
+
+    .separaciones{
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    /*    MI HISTORIA  */
+
+  .separaciones_mi_historia{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
+    font-size: 1rem;
+}
+    .logo{
+        width: 400px;
+    }
+
+    /* Formulario */    
+   #tamaño_formulario{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+} 
+}
+/* EMPIEZA @MEDIA SCREEM 1440 */
+
+@media screen and (min-width: 1440px){
+
+    /* INICIO*/
+
+    .grid_inicio{
+        grid-template-rows: 1fr 2.6fr 0.25fr;
+     } 
+     
+     .logo{
+        overflow: hidden;
+    }
+    .separaciones{
+        font-size: 2rem;
+            h1{
+                font-size: $tamaño-titulos2;
+                margin-top: 7vw;
+            } 
+            
+            p{
+                padding: 10px;
+                text-align: center;
+                font-family: 'Updock', cursive;
+                font-size: 4rem;
+    }
+    }
+    .div{
+        p{
+            font-size: 5rem;
+        }
+    }
+     /* FOTOS */
+
+    /*    MI HISTORIA  */
+
+
+  .separaciones_mi_historia{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1vw;
+    font-size: 1rem;
+}
+    .logo{
+        width: 400px;
+    }
+
+}

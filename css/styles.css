@@ -1,313 +1,334 @@
+@charset "UTF-8";
 * {
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-    overflow-x: hidden;
-  }
-  
-/* EMPIEZA INDEX */
-
-
-.logo{
-    width: 200px;
-    height: auto;
-}
-.separaciones{
-    display: flex;
-    flex-direction: column;
-    margin-top: 5vw;
-    font-size: 1rem;
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  overflow-x: hidden;
 }
 
-.separaciones p{
-    padding: 20px;
-    text-align: center;
-    font-family: 'Updock', cursive;
-    font-size: 1.4rem;
+/*Enpieza el inicio*/
+.logo {
+  width: 200px;
+  height: auto;
 }
 
-.fondo_img{
-    width: 100vw;
-    background-color: rgb(248, 245, 66);
-    display: flex;
-    flex-direction: column;
-
-}
-#nav_edicion{
-    width: 100vw;
-    background-color: rgb(203, 156, 248);
-
-
-}
-#fondo_pag{
-    background-image: url("../img/fondo.jpg");
-}
-.fuente{
-    font-size: 3rem;
-    font-family: 'Updock', cursive;
-}
-.pocicion{
-    margin-top: 20px;
-}
-.footer_edicion{
-    background-color: aquamarine;
-}
-.div_h3 h3{
-    font-size: 1rem;
+.grid_inicio {
+  display: grid;
+  /*   grid-template-rows: 1fr 0.15fr 2fr 0.25fr; */
 }
 
-/* TERMINA INDEX */
+.separaciones {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vw;
+  font-size: 1rem;
+}
+.separaciones p {
+  padding: 20px;
+  text-align: center;
+  font-family: "Updock", cursive;
+  font-size: 2rem;
+  color: rgb(127, 129, 247);
+}
+
+.fondo_img {
+  width: 100vw;
+  background-color: rgb(248, 245, 66);
+  display: flex;
+  flex-direction: column;
+}
+
+#nav_edicion {
+  width: 100vw;
+  background-color: rgb(203, 156, 248);
+}
+
+#fondo_pag {
+  background-image: url("../img/fondo.jpg");
+}
+
+.fuente {
+  font-size: 3rem;
+  font-family: "Updock", cursive;
+}
+
+.pocicion {
+  margin-top: 20px;
+}
+
+.footer_edicion {
+  background-color: aquamarine;
+}
+
+.div_h3 h3 {
+  font-size: 1rem;
+}
 
 /* EMPIEZA FOTOS */
+.fuente {
+  font-family: "Updock", cursive;
+}
 
-.fuente{
-    font-family: 'Updock', cursive;
+.tamaño_img {
+  width: 400px;
 }
-.tamaño_img{
-    width: 400px;
+
+.fondo_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.fondo_img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.separaciones_fotos {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  font-size: 1rem;
 }
-.separaciones_fotos{
+
+.separaciones_mi_historia {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2vw;
+  font-size: 1rem;
+}
+
+/* EMPIEZA TIENDA */
+.grid_tienda {
+  grid-template-rows: 1fr 0.35fr 3fr 0.6fr;
+}
+
+.tarjeta_tienda {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tienda_img {
+  width: 200px;
+  height: 100px;
+  border-radius: 5px;
+}
+
+.tamaño_img_tienda {
+  width: 320px;
+}
+
+.fondo_tarjetas {
+  background-color: chocolate;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.fondo_tarjetas2 {
+  background-color: rgb(255, 196, 0);
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.fondo_tarjetas3 {
+  background-color: rgb(1, 145, 97);
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.fondo_tarjetas4 {
+  background-color: cornflowerblue;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.tamaño_text {
+  font-size: 1.5rem;
+  margin-left: 8px;
+  overflow-y: hidden;
+}
+
+.tamaño_text2 {
+  font-size: 1rem;
+  margin-left: 8px;
+  overflow-y: hidden;
+}
+
+/* EMPIEZA @MEDIA SCREEM  768PX*/
+@media screen and (min-width: 768px) {
+  /*  INICIO */
+  .grid_inicio {
+    grid-template-rows: 1fr 2.5fr 0.3fr;
+  }
+
+  .logo {
+    width: 300px;
+    height: auto;
+  }
+
+  .separaciones {
     display: flex;
     flex-direction: column;
     margin-top: 5vw;
-    margin-bottom: 5vw;
-    font-size: 1rem;
-
-}
-/* TERMINA FOTOS */
-
-
-/* EMPIEZA MI HISTORIA */
-
-.separaciones_mi_historia{
-        display: flex;
-        flex-direction: column;
-        margin-top: 2vw;
-        font-size: 1rem;
-    }
-
-/* TERMINA MI HISTORIA */
-
-
-/* EMPIEZA TIENDA */
-
-    .grid_tienda{
-        grid-template-rows: 1fr 0.35fr 3fr 0.6fr;
-    }    
-
-    .tarjeta_tienda{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    .tienda_img{
-        width: 200px;
-        height: 100px;
-        border-radius: 5px;
-    }    
-    .tamaño_img_tienda{ 
-        width: 320px;
-    }
-    .fondo_tarjetas{
-        background-color: chocolate;
-        border-radius: 8px;
-        margin-bottom: 10px;
-        padding: 5px;
-    }
-    .fondo_tarjetas2{
-        background-color: rgb(255, 196, 0);
-        margin-bottom: 10px;
-        padding: 5px;
-    }
-    .fondo_tarjetas3{
-        background-color: rgb(1, 145, 97);
-        margin-bottom: 10px;
-        padding: 5px;
-    }
-    .fondo_tarjetas4{   
-        background-color: cornflowerblue;
-        margin-bottom: 10px;
-        padding: 5px;
-    }
-    .tamaño_text{
-        font-size: 1.5rem;
-        margin-left: 8px;
-        overflow-y: hidden;
-    }
-    .tamaño_text2{
-        font-size: 1rem;
-        margin-left: 8px;
-        overflow-y: hidden;
-    }
-
-/* TERMINA TIENDA */
-
-/* EMPIEZA CONTACTAME */
-
-
-
-/* EMPIEZA @MEDIA SCREEM  768PX*/
-@media screen and (min-width: 768px){
-
- 
-    /*  INICIO */
-
- .grid_inicio{
-    grid-template-rows: 1fr 0.15fr 2fr 0.25fr;
-} 
-  .separaciones{
-      display: flex;
-      flex-direction: column;
-      margin-top: 5vw;
-      font-size: 1.3rem;
-  }
-  .fuente{
-    font-family: 'Updock', cursive;
     font-size: 4rem;
-}
-  .separaciones p{
-      padding-top: 40px;
-      text-align: center;
-      font-size: 2rem;
+  }
+  .separaciones h1 {
+    font-size: 5rem;
+    margin-top: 15vw;
+    text-shadow: 5px red;
+  }
+  .separaciones .p {
+    font-size: 4rem;
+    padding-top: 5px;
+    text-align: center;
   }
 
-  .edicion_footer{
-      padding-top: 10px;
+  .edicion_footer {
+    padding-top: 10px;
   }
 
   /* FOTOS */
-  
-    .fondo_img{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+  .fondo_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .separaciones_fotos{
+  .separaciones_fotos {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    }
-    .fuente{
-        font-family:'Updock', cursive;
-    }
+  }
 
-    .tamaño_img{
-    width: 500px ;
-}
+  .fuente {
+    font-family: "Updock", cursive;
+  }
 
-/*    MI HISTORIA  */
+  .tamaño_img {
+    width: 500px;
+  }
 
- 
-  .separaciones_mi_historia{
+  /*    MI HISTORIA  */
+  .separaciones_mi_historia {
     display: flex;
     flex-direction: column;
     margin-top: 1vw;
     font-size: 1rem;
+  }
+
+  .logo {
+    width: 300px;
+  }
+
+  /* TIENDA */
+  .grid_tienda {
+    grid-template-rows: 1fr 0.35fr 3fr 0.6fr;
+  }
+
+  .tarjeta {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
-    .logo{
-        width: 300px;
-    }
-
-    /* TIENDA */
-
-    .grid_tienda{
-        grid-template-rows: 1fr 0.35fr 3fr 0.6fr;
-    }    
-    
-    .tarjeta{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-}
-
-  
 /* EMPIEZA @MEDIA SCREEM 1024 */
+@media screen and (min-width: 1024px) {
+  /* INICIO*/
+  .grid_inicio {
+    grid-template-rows: 1fr 2.3fr 0.25fr;
+  }
 
-@media screen and (min-width: 1024px){
+  #nav_edicion {
+    background-color: rgb(203, 156, 248);
+    font-size: 1.2rem;
+  }
 
-    /* INICIO*/
+  .fuente {
+    font-family: "Updock", cursive;
+    font-size: 5rem;
+  }
 
-    .grid_inicio{
-        grid-template-rows: 1fr 0.15fr 1.5fr 0.25fr;
-    } 
-    #nav_edicion{
-        background-color: rgb(203, 156, 248);
-        font-size: 1.2rem;
-    }
-    .fuente{
-        font-family: 'Updock', cursive;
-        font-size: 5rem;
-    }
-    /*FOTOS*/
+  .separaciones {
+    margin-top: 20vw;
+    font-size: 1.3rem;
+  }
+  .separaciones h1 {
+    font-size: 5rem;
+  }
+  .separaciones h1 p {
+    font-size: 4rem;
+  }
 
-    .separaciones{
-        margin-top: 5px;
-        margin-bottom: 5px;
-    }
+  /*FOTOS*/
+  .separaciones {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 
-    /*    MI HISTORIA  */
-
-  .separaciones_mi_historia{
+  /*    MI HISTORIA  */
+  .separaciones_mi_historia {
     display: flex;
     flex-direction: column;
     margin-top: 1vw;
     font-size: 1rem;
-}
-    .logo{
-        width: 400px;
-    }
+  }
 
-    /* Formulario */    
-   #tamaño_formulario{
+  .logo {
+    width: 400px;
+  }
+
+  /* Formulario */
+  #tamaño_formulario {
     width: 600px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-} 
+  }
 }
 /* EMPIEZA @MEDIA SCREEM 1440 */
+@media screen and (min-width: 1440px) {
+  /* INICIO*/
+  .grid_inicio {
+    grid-template-rows: 1fr 2.6fr 0.25fr;
+  }
 
-@media screen and (min-width: 1440px){
+  .logo {
+    overflow: hidden;
+  }
 
-    /* INICIO*/
+  .separaciones {
+    font-size: 2rem;
+  }
+  .separaciones h1 {
+    font-size: 7rem;
+    margin-top: 7vw;
+  }
+  .separaciones p {
+    padding: 10px;
+    text-align: center;
+    font-family: "Updock", cursive;
+    font-size: 4rem;
+  }
 
-    .grid_inicio{
-        grid-template-rows: 1fr 0.13fr 1.5fr 0.25fr;
-    } 
-    
-    .separaciones p{
-        padding: 10px;
-        text-align: center;
-        font-family: 'Updock', cursive;
-        font-size: 2.5rem;
-    }
+  .div p {
+    font-size: 5rem;
+  }
 
-     /* FOTOS */
-
-    /*    MI HISTORIA  */
-
-
-  .separaciones_mi_historia{
+  /* FOTOS */
+  /*    MI HISTORIA  */
+  .separaciones_mi_historia {
     display: flex;
     flex-direction: column;
     margin-top: 1vw;
     font-size: 1rem;
-}
-    .logo{
-        width: 400px;
-    }
+  }
 
+  .logo {
+    width: 400px;
+  }
 }
+
+/*# sourceMappingURL=styles.css.map */
