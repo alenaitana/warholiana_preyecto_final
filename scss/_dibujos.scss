@@ -1,0 +1,29 @@
+/* Empieza Dibujos */
+
+.grid_dibujos{
+    display: grid;
+}
+img{
+    max-width: 100%;
+    
+}
+.galeria{
+    padding: 80px 0;
+
+    img{
+        background-color: white;
+        padding: 2px;
+        width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(0,0,0,0.3);
+        cursor: pointer;
+}   
+}
+ #bordes{
+        border-radius: 15px;
+        border: solid 2px white;
+    } 
+.tamaño-img{
+    width: 450px;
+    height: 400px;
+}

@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import "grabados.css";
 * {
   margin: 0%;
   padding: 0%;
@@ -35,8 +34,6 @@
 .fondo_img {
   width: 100vw;
   background-color: rgb(248, 245, 66);
-  background-image: url(../img/fondo2.jpg);
-  background-size: cover;
   display: flex;
   flex-direction: column;
 }
@@ -65,8 +62,6 @@
 
 .footer_edicion {
   background-color: aquamarine;
-  background-image: url("../img/fondo3.jpg");
-  background-size: cover;
 }
 
 .div_h3 h3 {
@@ -96,50 +91,19 @@
   font-size: 1rem;
 }
 
-/* Empieza Dibujos */
 .grid_dibujos {
   display: grid;
 }
 
-img {
-  max-width: 100%;
-}
-
-.galeria {
-  padding: 80px 0;
-}
-.galeria img {
-  background-color: white;
-  padding: 2px;
+.fotos-dibujos {
   width: 100%;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
-
-#bordes {
-  border-radius: 15px;
-  border: solid 2px white;
-}
-
-.tamaño-img {
-  width: 450px;
-  height: 400px;
-}
-
-/* EMPIESA pinturas*/
-.grid_pinturas {
-  display: grid;
-}
-
-#bordes {
-  border-radius: 15px;
-  border: solid 2px white;
-}
-
-.tamaño-img {
-  width: 450px;
-  height: 400px;
+.fotos-dibujos img {
+  width: 350px;
+  height: 350px;
 }
 
 .separaciones_mi_historia {
@@ -386,4 +350,4 @@ img {
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=style.css.map */
