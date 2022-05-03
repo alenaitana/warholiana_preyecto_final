@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="WARHOLIANA, MURALES, PINTURA, DIBUJOS, GRABADOS, PINTORA">
+    <meta name="description" content="Sitio oficial de la pintura WARHOLIANA en este sitio podran descubrir su mundo y entrar en el.">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./img/favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Updock&display=swap" rel="stylesheet">
@@ -12,49 +14,34 @@
     <title>Warholiana</title>
 </head>
 <body> 
-    <div class="grid_inicio">
-        <header class="container-fluid fondo_img">
+    <div class="grid_inicio">   
+        <header class="fondo_img">
             <div class="container-fluid text-center p-2" >
                 <img src="./img/logopng.png" alt="Logo warholiana" class="logo">
             </div>
-            <nav class="navbar navbar-expand-lg navbar-light" id="nav_edicion">
-                <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                         Trabajos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" id="nav_edicion2">
-                          <li><a class="dropdown-item" href="./pag/dibujos.html">Dibujos</a></li>
-                          <li><a class="dropdown-item" href="./pag/pinturas.html">Pinturas</a></li>
-                          <li><a class="dropdown-item" href="./pag/murales.html">Murales</a></li>
-                          <li><a class="dropdown-item" href="./pag/grabados.html">Grabados</a></li>
-                          <li><a class="dropdown-item" href="./pag/colage.html">Colage</a></li>
-                        </ul>
-                      </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pag/mi_historia.html">Mi historia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pag/tienda.html">Tienda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="pag/contactame.html">Contactame</a>
-                    </li>
-                    </ul>
-                </div>
-                </div>
-            </nav>
         </header>
-
-      <div id="fondo_pag">
+        <div class="container_menu">
+            <div class="menu">
+             <nav>
+                 <ul>
+                     <li><a href="./index.html">Inicio</a></li>
+                     <li><a href="./pag/fotos.html">Fotos</a>
+                         <ul>
+                             <li><a href="./pag/dibujos.html">Dibujos</a></li>
+                             <li><a href="./pag/pinturas.html">Pinturas</a></li>
+                             <li><a href="./pag/grabados.html">Grabados</a></li>
+                         </ul>
+                     </li>
+                     <li><a href="./pag/mi_historia.html">Mi historia</a></li>
+                     <li><a href="./pag/tienda.html">Tienda</a></li>
+                     <li><a href="./pag/contactame.html">Contactame</a></li>
+                 </ul>
+             </nav>
+         </div> 
+         </div>
+         
+       
+      <div class="container-fluid" id="fondo_pag">
             <div class="container-fluid separaciones">
                         <h1 class="text-center fuente pocicion overflow-hidden">Bienvenidos</h1>
                 <div class="container">
@@ -69,23 +56,25 @@
                 </div> 
             </div>
      </div>
-      <footer class="footer_edicion p-3 edicion_footer">
-        <div class="container text-center">
-            <div class="row">
-                <div class="col div_h3">
-                    <h3 class="overflow-hidden text-start">Copyright</h3>
-                    <h3 class="overflow-hidden text-start">2022</h3>
+      <footer class="flex_footer">
+                <div class="">
+                    <p class="estilo_2"> Copyright </p> 
+                   <p> 2022 </p> 
                 </div>
-                <div class="col flex-column">
-                    <img width="40px" src="./img/logo-instagram-Icono.webp" alt="icono instagram">
-                    <img width="40px" src="./img/facebook-logo-icone.png" alt="icono facebook">
+                <div>
+                    <a href="https://www.instagram.com/warholiana/" target="_black">
+                        <img width="40px" src="./img/instagram_logo.png" alt="icono instagram">
+                    </a>
+                    <a href="https://www.facebook.com/warholiana/">
+                      <img width="40px" src="./img/facebook-logo-icone.png" alt="icono facebook">  
+                    </a>
+                         <img width="40px" src="./img/wathapps_logo2.png" alt="Icono wathapps">
                 </div>
             </div>
         </div>
       </footer>
     </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

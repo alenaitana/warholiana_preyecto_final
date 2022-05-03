@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-light" id="nav_edicion">
+            <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                    <ul class="navbar-nav">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         Trabajos
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                          <li><a class="dropdown-item" href="#">Dibujos</a></li>
+                          <li><a class="dropdown-item" href="#">Murales</a></li>
+                          <li><a class="dropdown-item" href="#">Grabados</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="pag/mi_historia.html">Mi historia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pag/tienda.html">Tienda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pag/contactame.html">Contactame</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>  

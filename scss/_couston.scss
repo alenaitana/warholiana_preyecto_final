@@ -1,3 +1,5 @@
+/*VARIABLES*/
+
 $color-magenta: rgb(127, 129, 247);
 
 $margen-texto: 80px;
@@ -8,3 +10,18 @@ $tamaño-titulos2: 7rem;
 
 $tamaño-text: 4rem;
 
+
+/* EXTEND */
+
+.estilo_1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black
+}
+
+.estilo_2{
+    @include estilo_1;
+    box-shadow: 0 30px white
+
+}

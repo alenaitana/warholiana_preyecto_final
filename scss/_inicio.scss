@@ -4,16 +4,18 @@
     box-sizing: border-box;
     overflow-x: hidden;
   }
+
+  @import"extend";
   
   /*Enpieza el inicio*/
-
   .logo{
     width: 200px;
     height: auto;
 }
+
 .grid_inicio{
     display: grid;
- /*   grid-template-rows: 1fr 0.15fr 2fr 0.25fr; */
+    grid-template-rows: 1fr 0.2fr 2fr 0.25fr;
 } 
 .separaciones{
     display: flex;
@@ -45,7 +47,56 @@
 }
 #nav_edicion2{
     background-color: aquamarine;
-     
+}
+
+.menu{
+    width: 100%;
+    height: 5px;
+    background: rgb(152, 128, 240);
+    padding: 0 20px;
+    max-width: 1200px;
+    margin: auto;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+
+        nav{
+            height: 100%;
+            overflow-y: hidden;
+
+        }
+
+}
+
+nav > ul{
+    height: 100%;
+    display: flex;
+    
+}
+
+nav > ul > li{
+    height: 100%;
+    list-style: none;
+    position: relative;
+    
+}
+
+
+nav > ul > li > a{
+    
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    color: white;
+    overflow-y: hidden;
+    text-transform: uppercase;
+    transition: all 300ms ease;
+    
+}
+
+nav > ul > li > a:hover{
+    transform: scale(1.2);
 }
 
 #fondo_pag{
@@ -59,10 +110,24 @@
     margin-top: 20px;
 }
 .footer_edicion{
-    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     background-image: url("../img/fondo3.jpg");
-    background-size: cover;
 }
-.div_h3 h3{
-    font-size: 1rem;
+.flex_footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url("../img/fondo3.jpg");
+    padding: 55px 20px;
+
+        div{
+            text-align: center;
+            font-size: 1.1rem;
+        }
+}
+.estilos_2{
+    @include estilo_1;
+    box-shadow: 0 30px white;
 }

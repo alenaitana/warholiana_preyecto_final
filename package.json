@@ -1,0 +1,25 @@
+{
+  "name": "warholiana_proyectofinal----copia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --incluide-path scss scss/estilos.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alenaitana/warholiana_preyecto_final.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alenaitana/warholiana_preyecto_final/issues"
+  },
+  "homepage": "https://github.com/alenaitana/warholiana_preyecto_final#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
